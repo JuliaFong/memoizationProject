@@ -7,13 +7,25 @@
     "test": "test"
   },
   "scripts": {
+    "start": "nodemon problems.js",
     "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.0.2"
+    "node": "^15.4.0"
   },
-  "description": ""
+  "description": "* part of Open App Academy's Curriculum",
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaFong/memoizationProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuliaFong/memoizationProject/issues"
+  },
+  "homepage": "https://github.com/JuliaFong/memoizationProject#readme"
 }
